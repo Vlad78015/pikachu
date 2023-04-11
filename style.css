@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #916b0c;
+}
+.header {
+    background-color: #f0ad05;
+    width: 120%;
+}
+.header__body {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    border: 2px solid #cd0b0b;
+    border-radius: 50%;
+    height: -20px;
+}
+.header__menu {
+    display: flex;
+}
+.header__menu-link a{
+    transition: 0.4s;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    color: #ffffff;
+    text-shadow: 0 0 3px #000;
+}
+.header__menu-link a:hover{
+    text-decoration: overline;
+    color: darksalmon;
+}
+.card {
+    background: linear-gradient(#ffda07, #f0ad05);
+    width: 450px;
+    height: 680px;
+    margin: 60px auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card__box {
+    transition: 0.4s;
+    background: url(https://static.vecteezy.com/system/resources/previews/001/946/569/original/abstract-geometric-hexagons-yellow-background-with-diagonal-striped-lines-free-vector.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 10px 15px;
+}
+
+.box__title {
+}
+
+.box__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box__header-right {
+    display: flex;
+}
+.header__right-text {
+    color: brown;
+    font-weight: 800;
+    font-size: 22px;
+}
+.header__right-circle {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #7e7b7b;
+    border: 1px solid #ff0000;
+}
+.box__header-text {
+}
+.box__header-name {
+}
+.box__image {
+}
+.box__image-photo {
+    width: 378px;
+    height: 200px;
+    border: 5px inset #e2af06;
+}
+.box__image-info {
+    font-style: italic;
+    background: linear-gradient(rgb(250, 208, 20), #efe305);
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.box__main {
+    margin: 10px auto;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+.box__main-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 1px solid #ffffff;
+    order: 0;
+}
+.box__main-text {
+    order: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card__box:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background: url(https://img.freepik.com/free-vector/yellow-geometric-circular-shape-background_1409-1877.jpg?w=2000&t=st=1680800476~exp=1680801076~hmac=430bcc8c72b3a9cbd2054783703236bc4a6b371caa6e4474152f5bad42ed9de3);
+}
+.box__footer {
+    margin: 10px auto;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: space-around;
+}
+.box__footer-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #cc0000;
+    border: 1px solid #ffffff;
+}
+.box__footer-text {
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+}
+.box__footer-right{
+    font-size: 28px;
+}
+.box__bottom {
+}
+.box__bottom-text {
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+.box__bottom-picture {
+    margin-top: 10px;
+    border: 3px inset #ff0000;
+    width: 380px;
+    height: 200px;
+}

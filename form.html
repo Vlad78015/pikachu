@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__body">
+            <span class="header__logo">LOGO</span>
+            <ul class="header__menu">
+                <li class="header__menu-link">
+                    <a href="./index.html">HOME</a>
+                </li>
+                <li class="header__menu-link">
+                    <a href="#">VIDEO</a>
+                </li>
+                <li class="header__menu-link">
+                    <a href="./form.html">LOGIN IN</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="box">
+            <h1 class="title">LOGIN</h1>
+            <form action="#">
+                <div class="block">
+                    <label class="box__label">Email</label>
+                    <input type="text" class="box__input" required>
+                </div>
+                <div class="block">
+                    <label class="box__label">Password</label>
+                    <input type="password" class="box__input" required>
+                </div>
+                <ul class="form__bottom">
+                    <li class="bottom__list"><label class="bottom__check">Remember me</label></li>
+                    <li class="bottom__list"><input class="check" type="checkbox"></li>
+                    <li class="bottom__list"><a target="_blank" href="https://www.google.com/intl/ukr/gmail/about/" class="bottom__text">Forgot password?</a></li>
+                </ul>
+                <button class="submit">Sign up</button>
+                <button class="log">Log in</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
